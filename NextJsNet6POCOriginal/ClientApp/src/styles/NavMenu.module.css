@@ -1,0 +1,37 @@
+﻿.navbarBrand {
+    white-space: normal;
+    text-align: center;
+    word-break: break-all;
+}
+
+.html {
+    font-size: 14px;
+}
+
+@media (min-width: 768px) {
+    .html {
+        font-size: 16px;
+    }
+}
+
+.boxShadow {
+    box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+}
+
+@media (min-width: 576px) {
+    .navbarExpand-sm .navbarNav .navLink {
+        padding-right: 0.5rem;
+        padding-left: 0.5rem;
+    }
+}
+.textDark {
+    --bs-text-opacity: 1;
+    color: rgba(var(--bs-dark-rgb), var(--bs-text-opacity)) !important;
+}
+.navLink {
+    display: block;
+    padding: 0.5rem 1rem;
+    color: #0d6efd;
+    text-decoration: none;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
+}
